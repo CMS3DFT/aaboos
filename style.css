@@ -1,0 +1,46 @@
+body{
+
+}
+header{
+    width: 1200px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border: none;
+    
+} 
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to left,  pink,purple);
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 15px;
+}
+.nav{
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+input{
+    width: 300px;
+    background-color: lightgrey;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 12px;
+}
+input ,placeholder{
+    text-align: center;
+}
+.botton{
+    width: 200px;
+    height: 40px;
+    background-color:  pu;
+    border-radius: 20px;
+    border: none;
+}
